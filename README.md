@@ -11,7 +11,7 @@ The client and server assets are bundled using Rollup.
 Install the Rollup CLI with:
 
 ```console
-deno install -f -q --allow-read --allow-write --allow-net --allow-env --unstable https://deno.land/x/drollup@2.36.2+0.4.0/rollup.ts
+deno install -f -q --allow-read --allow-write --allow-net --allow-env --unstable https://deno.land/x/drollup@2.36.2+0.4.1/rollup.ts
 ```
 
 And follow any suggestions to update your `PATH` environment variable.
