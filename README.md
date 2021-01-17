@@ -1,8 +1,8 @@
 # deno-rollup-react-example
 
-An example of how you can use Rollup with Opine and React in Deno.
+An example of how you can use [Rollup](https://github.com/cmorten/deno-rollup/) with [Opine](https://github.com/asos-craigmorten/opine/) and [React](https://reactjs.org/) in [Deno](https://deno.land/).
 
-This example uses ejs templates to create the HTML markup, serves static assets for styles, and performs server-side rendering of the React application. The application itself makes use of experimental Suspense for data-fetching which demonstrates "render-as-you-fetch", retrieving data from an API the server hosts.
+This example uses [ejs](https://github.com/syumai/dejs) templates to create the HTML markup, serves static assets for styles, and performs server-side rendering of the React application. The application itself makes use of experimental Suspense for data-fetching which demonstrates "render-as-you-fetch", retrieving data from an API the server hosts.
 
 The client and server assets are bundled using Rollup.
 
