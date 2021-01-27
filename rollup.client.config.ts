@@ -1,4 +1,4 @@
-import type { Plugin } from "https://deno.land/x/drollup@2.36.2+0.4.0/mod.ts";
+import type { Plugin } from "https://deno.land/x/drollup@2.38.0+0.7.3/mod.ts";
 import { pluginTerserTransform } from "https://deno.land/x/denopack@0.10.0/plugin/terserTransform/mod.ts";
 
 const format = "es" as const;
@@ -16,4 +16,5 @@ export default {
   watch: {
     include: ["src/**"],
   },
+  onwarn() {},
 };

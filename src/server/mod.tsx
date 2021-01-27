@@ -1,6 +1,5 @@
 import {
   dirname,
-  extname,
   fromFileUrl,
   join,
   opine,
